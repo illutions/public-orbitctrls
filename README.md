@@ -75,9 +75,9 @@ illutions-provided build tooling, or the third-party assets listed below.
 
 ## Deployment
 
-The project uses relative scene asset URLs and a relative Vite base path. The
-production build can therefore be deployed at the domain root or below a
-subdirectory such as a GitHub Pages project path.
+The project uses relative scene asset URLs. Vite serves the application at the
+domain root during local development and uses `/public-orbitctrls/` when the
+build runs in GitHub Actions for deployment to GitHub Pages.
 
 ## Third-party assets
 
