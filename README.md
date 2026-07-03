@@ -4,6 +4,8 @@ A minimal TypeScript and Three.js example demonstrating orbit controls, automati
 camera rotation, glTF model loading, environment lighting, and the Illutions
 Engine GUI using the WebGL renderer.
 
+[![Illutions Engine Orbit Controls example](.github/assets/orbit-controls-preview.png)](https://illutions.github.io/public-orbitctrls/)
+
 ## Requirements
 
 - Node.js `^20.19.0` or `>=22.12.0` and npm
