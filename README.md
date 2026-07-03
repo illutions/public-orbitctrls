@@ -58,20 +58,16 @@ npm run preview
 
 ## License
 
-The example application code in this repository may be used, modified, and
-distributed for private, non-commercial, and commercial projects.
+The example code and project configuration are licensed under the
+[Illutions Example Code License](LICENSE.md).
 
 The illutions Engine and illutions-provided build tooling are proprietary
 software and are licensed separately. Their complete licensing terms are
 provided with the [illutions package on npm](https://www.npmjs.com/package/illutions).
-The included `license.json` determines the build permissions defined by that
-license.
+Build permissions are determined by `license/license.json`.
 
-Engine and bundled dependency licenses are also included in `dist/licenses.md`
-when creating a production build.
-
-This permission does not relicense the illutions Engine, illutions branding,
-illutions-provided build tooling, or the third-party assets listed below.
+Production builds include the applicable Engine and bundled dependency
+licenses in `dist/licenses.md`.
 
 ## Deployment
 
