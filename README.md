@@ -75,9 +75,13 @@ illutions-provided build tooling, or the third-party assets listed below.
 
 ## Deployment
 
-The project uses relative scene asset URLs. Vite serves the application at the
-domain root during local development and uses `/public-orbitctrls/` when the
-build runs in GitHub Actions for deployment to GitHub Pages.
+The included GitHub Actions workflow automatically builds and deploys the
+project to GitHub Pages on every push to the `main` branch. It can also be
+started manually from the Actions tab.
+
+In the repository settings under **Pages**, select **GitHub Actions** as the
+deployment source. The workflow provides Vite with the GitHub Pages base path,
+while local development continues to use the domain root `/`.
 
 ## Third-party assets
 
