@@ -5,7 +5,7 @@
   "type": "module",
   "keywords": [],
   "author": "",
-  "license": "",
+  "license": "SEE LICENSE IN LICENSE.md",
   "description": "",
   "scripts": {
     "dev": "node build.js dev",
