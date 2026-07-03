@@ -22,4 +22,4 @@ cfg.render.webgl.parameters.antialias = true;
 
 document.addEventListener('DOMContentLoaded', () => {
   App.run(cfg);
-}); 
+});

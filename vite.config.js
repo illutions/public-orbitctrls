@@ -12,7 +12,7 @@ const REPO_ROOT = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   root: REPO_ROOT,
-  base: process.env.GITHUB_ACTIONS ? '/public-orbitctrls/' : '/',
+  base: process.env.PAGES_BASE_PATH || '/',
 
   server: {
   host: 'localhost',
