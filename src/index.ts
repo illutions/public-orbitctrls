@@ -6,7 +6,7 @@ cfg.cam.position = { x: 0, y: 1, z: 3 }
 // Configures how the camera rotates, pans and zooms around a target.
 cfg.orbitCtrls.enable = true;
 cfg.orbitCtrls.autoRotate = true;
-cfg.orbitCtrls.maxDistance = 1000;
+cfg.orbitCtrls.maxDistance = 10;
 cfg.orbitCtrls.minDistance = 2;
 
 // Configures GLTF/GLB model loading.
@@ -22,4 +22,4 @@ cfg.render.webgl.parameters.antialias = true;
 
 document.addEventListener('DOMContentLoaded', () => {
   App.run(cfg);
-});
+}); 
