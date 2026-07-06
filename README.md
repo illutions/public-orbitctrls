@@ -1,14 +1,54 @@
 # Illutions Engine Orbit Controls Example
 
-A minimal TypeScript and Three.js example demonstrating orbit controls, automatic
-camera rotation, glTF model loading, environment lighting, and the Illutions
-Engine GUI using the WebGL renderer.
+Build interactive browser-based 3D experiences with a compact,
+configuration-driven TypeScript setup. This example combines an animated camera,
+a production-ready 3D asset, realistic environment lighting, and live controls
+in just a few lines of Illutions Engine configuration.
+
+## Live demo
 
 [![Illutions Engine Orbit Controls example](.github/assets/orbit-controls-preview.png)](https://illutions.github.io/public-orbitctrls/)
 
+**[Launch the interactive demo](https://illutions.github.io/public-orbitctrls/)**
+and drag, zoom, or pan around the camera.
+
+## What this example demonstrates
+
+- Smooth orbit controls with automatic camera rotation and configurable limits
+- Direct GLTF/GLB model loading and EXR environment lighting
+- Antialiased WebGL rendering configured through TypeScript
+- Runtime controls for inspecting and tuning the experience
+- A focused project structure that is easy to use as a starting point
+
+## Why Illutions Engine
+
+Illutions Engine brings the pieces needed for sophisticated browser-based 3D
+applications into one configurable workflow:
+
+**Resource-aware rendering**  
+An intelligent, configurable FPS limiter avoids unnecessary frames and helps reduce CPU and GPU load.
+
+**WebGL and WebGPU rendering**  
+Support established and next-generation browser rendering with automatic WebGPU selection and WebGL fallback.
+
+**Lean initial bundles**  
+Optional controls, loaders, inspectors and effects are dynamically imported only when needed.
+
+**Optimized GLTF/GLB pipeline**  
+Load assets with Draco or Meshopt mesh compression and WebP or KTX2 textures.
+
+**Built-in interaction and audio**  
+Use pointer-based raycasting and distance-aware spatial audio.
+
+**Flexible environments**  
+Load HDR, EXR and texture environments with configurable rotation, intensity and background controls.
+
+**Runtime insights and debugging**  
+Inspect runtime properties, FPS, CPU and renderer statistics with detailed state, event and console reporting.
+
 ## Requirements
 
-- Node.js `^20.19.0` or `>=22.12.0` and npm
+- Node.js and npm
 - A browser with WebGL support
 
 ## Installation
