@@ -25,25 +25,34 @@ and drag, zoom, or pan around the camera.
 Illutions Engine brings the pieces needed for sophisticated browser-based 3D
 applications into one configurable workflow:
 
-**Resource-aware rendering**  
+- **Advanced post-processing**  
+Add SSAO, SSR, FXAA and SMAA through configurable pipelines for WebGL and WebGPU.
+
+- **Advanced animation control**  
+Coordinate GLTF animation clips, GSAP transitions, camera paths and custom dolly-rig camera workflows.
+
+- **XState-powered application logic**  
+Model complex application flows as predictable and inspectable state machines with integrated XState 5 usage.
+
+- **Resource-aware rendering**  
 An intelligent, configurable FPS limiter avoids unnecessary frames and helps reduce CPU and GPU load.
 
-**WebGL and WebGPU rendering**  
+- **WebGL and WebGPU rendering**  
 Support established and next-generation browser rendering with automatic WebGPU selection and WebGL fallback.
 
-**Lean initial bundles**  
+- **Lean initial bundles**  
 Optional controls, loaders, inspectors and effects are dynamically imported only when needed.
 
-**Optimized GLTF/GLB pipeline**  
+- **Optimized GLTF/GLB pipeline**  
 Load assets with Draco or Meshopt mesh compression and WebP or KTX2 textures.
 
-**Built-in interaction and audio**  
+- **Built-in interaction and audio**  
 Use pointer-based raycasting and distance-aware spatial audio.
 
-**Flexible environments**  
+- **Flexible environments**  
 Load HDR, EXR and texture environments with configurable rotation, intensity and background controls.
 
-**Runtime insights and debugging**  
+- **Runtime insights and debugging**  
 Inspect runtime properties, FPS, CPU and renderer statistics with detailed state, event and console reporting.
 
 ## Requirements
