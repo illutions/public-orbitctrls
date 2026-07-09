@@ -7,7 +7,7 @@ in just a few lines of Illutions Engine configuration.
 
 ## Live demo
 
-[![Illutions Engine Orbit Controls example](.github/assets/orbit-controls-preview.png)](https://illutions.github.io/public-orbitctrls/)
+[![Illutions Engine Orbit Controls example](.github/assets/screenshot.png)](https://illutions.github.io/public-orbitctrls/)
 
 **[Launch the interactive demo](https://illutions.github.io/public-orbitctrls/)**
 and drag, zoom, or pan around the camera.

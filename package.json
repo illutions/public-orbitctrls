@@ -1,6 +1,6 @@
 {
-  "name": "public-orbitctrls",
-  "version": "0.1.0",
+  "name": "public-app",
+  "version": "0.0.0",
   "private": true,
   "type": "module",
   "keywords": [],
@@ -13,12 +13,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "illutions": "~0.21.9",
-    "three": "~0.184.0",
+    "illutions": "~0.22.1",
+    "three": "~0.185.1",
     "xstate": "~5.31.1"
   },
   "devDependencies": {
-    "@types/three": "~0.184.0",
+    "@types/three": "~0.185.0",
     "@vitejs/plugin-basic-ssl": "^2.3.0",
     "@webgpu/types": "^0.1.70",
     "javascript-obfuscator": "~5.4.1",
