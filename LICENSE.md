@@ -31,7 +31,7 @@ illutions package.
 
 Third-party materials remain subject to their respective licenses. Applicable
 asset notices and sources are listed in
-[LICENSE_ASSETS.md](LICENSE_ASSETS.md). Bundled software dependency
+[LICENSE_ASSETS.md](public/LICENSE_ASSETS.md). Bundled software dependency
 licenses are generated in dist/licenses.md during production builds.
 
 3. No Warranty

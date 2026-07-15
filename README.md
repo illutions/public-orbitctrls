@@ -130,7 +130,7 @@ while local development continues to use the domain root `/`.
 ## Third-party assets
 
 Third-party assets remain subject to their respective licenses. See
-[Asset Licenses](LICENSE_ASSETS.md) for authors, sources, license terms,
+[Asset Licenses](public/LICENSE_ASSETS.md) for authors, sources, license terms,
 and bundled-file details.
 
 ## Project structure
