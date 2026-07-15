@@ -74,14 +74,11 @@ Start the development server:
 npm run dev
 ```
 
-The application is served over HTTPS at:
+The application is served over HTTP at:
 
 ```text
-https://localhost:5173
+http://localhost:5173
 ```
-
-The browser may display a warning because the development server uses a local
-self-signed certificate.
 
 ## Type checking
 
@@ -132,28 +129,9 @@ while local development continues to use the domain root `/`.
 
 ## Third-party assets
 
-Third-party assets remain subject to their respective licenses. They are not
-relicensed by this repository or by the illutions Engine license.
-
-### Argus Camera
-
-This example uses the [Argus Camera](https://sketchfab.com/3d-models/argus-camera-f9112ea4c15043ebbb24fa121ffef920)
-model published by Virtual Museums of Małopolska.
-
-The model is available under the Creative Commons CC0 1.0 Universal license.
-
-### Brown Photostudio 02
-
-This example uses the Brown Photostudio 02 HDRI from Poly Haven.
-
-- **Author:** Sergej Majboroda
-- **License:** Creative Commons CC0 1.0 Universal
-- **License URL:** https://creativecommons.org/publicdomain/zero/1.0/
-- **Source:** https://polyhaven.com/a/brown_photostudio_02
-- **Changes:** No changes made. The HDRI is used as the scene environment.
-
-CC0 permits copying, modification, redistribution, and commercial use without
-requiring attribution. The source is listed here for transparency and credit.
+Third-party assets remain subject to their respective licenses. See
+[Asset Licenses](LICENSE_ASSETS.md) for authors, sources, license terms,
+and bundled-file details.
 
 ## Project structure
 
