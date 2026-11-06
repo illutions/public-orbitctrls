@@ -1,9 +1,6 @@
 # Illutions Engine Orbit Controls Example
 
-Build interactive browser-based 3D experiences with a compact,
-configuration-driven TypeScript setup. This example combines an animated camera,
-a production-ready 3D asset, realistic environment lighting, and live controls
-in just a few lines of Illutions Engine configuration.
+This example combines an animated camera, a production-ready 3D asset, realistic environment lighting, and live controls in just a few lines of Illutions Engine configuration.
 
 ## Live demo
 

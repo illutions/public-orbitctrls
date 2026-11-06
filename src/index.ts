@@ -1,32 +1,22 @@
-import { App, cfg } from 'illutions';
+import { setComps, App, PerspCam3D } from 'illutions';
 
-// Show helpers
-cfg.gui.infoBox.enable = true;
-cfg.gui.inspector.enable = true;
+// Define the static settings used when the app starts
+import { cfg } from './cfg';
 
-// Set cameras position
-cfg.cam.position = { x: -2.25, y: 0.25, z: 0 }
+// For typed access to components and engine systems.
+export type MyApp = App<typeof comps>;
 
-// Set how camera rotates, pans and zooms around a target
-cfg.orbitCtrls.enable = true;
-cfg.orbitCtrls.autoRotate = true;
-cfg.orbitCtrls.maxDistance = 8;
-cfg.orbitCtrls.minDistance = 1.75;
-cfg.orbitCtrls.enableDamping = true
-cfg.orbitCtrls.dampingFactor = 0.025
-cfg.orbitCtrls.zoomSpeed = 0.5;
+// Register customized asset components
+const comps = setComps({
+  scene: {
+    cam: {
+      class: PerspCam3D,
+      params: { obj: { position: { x: -2.25, y: 0.25, z: 0 } } }
+    },
+  },
+});
 
-// Load GLTF/GLB model
-cfg.model.file = 'scene/orbitctrls.glb';
-
-// Set scene environment map
-cfg.envCtrls.enable = true;
-cfg.envCtrls.map = ['scene/brown_photostudio_02_1k.exr'];
-
-// Set antialias
-cfg.render.params.aa = true;
-
+// Start the app when the page is ready
 document.addEventListener('DOMContentLoaded', () => {
-  // Run illutions engine
-  App.run(cfg);
+  App.run(cfg, comps);
 }); 
